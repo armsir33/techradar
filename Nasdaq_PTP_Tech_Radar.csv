@@ -1,0 +1,18 @@
+name,ring,quadrant,isNew,description 
+Spring,adopt,frameworks,FALSE,
+Hibernate,adopt,frameworks,FALSE,
+Git,adopt,tools,FALSE,
+Maven,adopt,tools,FALSE,
+Java11,adopt,platforms,TRUE,"Newly upgrade to Java 11, adopt Amazon"
+Teamcity,adopt,tools,FALSE,
+OracleDB,adopt,platforms,FALSE,
+Jira,adopt,tools,FALSE,
+Confluence,adopt,tools,FALSE,
+Nasdaq Icore,adopt,platforms,FALSE,
+Sonarqube,adopt,techniques,FALSE,
+Checkstyle,trial,techniques,TRUE,Derive from Nasdaq Icore
+Docker,trial,tools,TRUE,Have some tryout in side product
+Junit5,assess,frameworks,TRUE,More naturely to support Java streams
+Java8,hold,platforms,FALSE,Gradually obsolete
+SVN,hold,tools,FALSE,Obsolete. Legacy repos are gradually being migrated
+Kafka,hold,platforms,FALSE,We utilize Nasdaq Icore instead of Kafka
